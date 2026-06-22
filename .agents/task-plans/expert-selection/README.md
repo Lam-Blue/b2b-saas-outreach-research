@@ -6,7 +6,7 @@ Build an evidence-backed recommendation for the best 10 experts for the B2B SaaS
 
 The workflow must:
 
-1. screen the initial candidate list in `research/sources.md`
+1. screen the initial candidate list in `research/other/initial-landscape-overview.md`
 2. preserve useful public material for later insight retrieval
 3. identify weak coverage, overlap, and candidate gaps
 4. discover and screen stronger external alternatives where needed
@@ -26,6 +26,7 @@ Read, in this order:
 1. All applicable files in `.agents/rules/`
 2. The relevant file in `.agents/skills/`
 3. `research/sources.md`
+4. `research/other/initial-landscape-overview.md`
 4. This workflow file
 5. The active task file
 6. Required outputs from earlier completed tasks
@@ -33,10 +34,14 @@ Read, in this order:
 `research/sources.md` is the source of truth for:
 
 * selection criteria
-* candidate names in the initial list
 * area definitions
 * review fields
 * final output structure
+
+`research/other/initial-landscape-overview.md` is the source of truth only for:
+
+* candidate names in the initial list
+* initial candidate context to verify or challenge during Task 02
 
 Do not recreate or alter those criteria elsewhere.
 

@@ -13,6 +13,7 @@ Use the expert-screening and public-material collection skills.
 ## Inputs
 
 * `research/sources.md`
+* `research/other/initial-landscape-overview.md`
 * `output-by-AI/research-log.md`
 * `output-by-AI/source-library.md`
 * `.agents/rules/`
@@ -22,7 +23,7 @@ Use the expert-screening and public-material collection skills.
 
 ## Scope
 
-Research only candidates whose `Origin` is `Initial list` in `output-by-AI/research-log.md`.
+Research only candidates whose `Origin` is `Initial list` in `output-by-AI/research-log.md`, seeded from `research/other/initial-landscape-overview.md`.
 
 Process them one by one.
 

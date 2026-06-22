@@ -11,6 +11,7 @@ Read the relevant screening and source-capture skills before starting.
 ## Inputs
 
 * `research/sources.md`
+* `research/other/initial-landscape-overview.md`
 * `.agents/rules/`
 * `.agents/skills/`
 * `.agents/task-plans/expert-selection/README.md`
@@ -61,7 +62,7 @@ Do not copy the full selection criteria into this file.
 
 ### 2. `output-by-AI/research-log.md`
 
-Create a dashboard with one row for every initial candidate currently listed in `research/sources.md`.
+Create a dashboard with one row for every initial candidate currently listed in `research/other/initial-landscape-overview.md`.
 
 Use this structure:
 
@@ -97,7 +98,7 @@ Allowed values for `Use`:
 
 ### 4. Candidate name extraction
 
-Extract the initial candidate names exactly as they appear in `research/sources.md`.
+Extract the initial candidate names exactly as they appear in `research/other/initial-landscape-overview.md`.
 
 Do not:
 

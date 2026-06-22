@@ -21,6 +21,7 @@ Use the expert-screening skill.
 ## Inputs
 
 * `research/sources.md`
+* `research/other/initial-landscape-overview.md`
 * `output-by-AI/research-log.md`
 * all initial candidate dossiers
 * `output-by-AI/source-library.md`

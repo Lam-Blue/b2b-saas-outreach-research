@@ -93,3 +93,7 @@ a concrete, reusable outbound insight
 credible evidence of recent public material
 
 Discard generic or duplicate material rather than saving it “just in case.”
+
+A copyright year, page footer year, access date, search-engine snippet, or apparent current branding is not a publication date.
+
+It may provide weak currency context, but it must never satisfy a requirement for dated original material or recency.
