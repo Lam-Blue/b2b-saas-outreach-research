@@ -1,99 +1,66 @@
 # B2B SaaS Cold Outreach Research
 
-## Why this research is structured this way
+This repository contains a source-backed B2B SaaS cold outreach playbook.
 
-I started with a broad landscape scan of B2B SaaS cold outreach.
+The current final artifact is `FINAL.md`. It uses the human-approved 10-expert selection already published in `research/sources.md`; expert selection is closed unless a future human instruction explicitly reopens it.
 
-It gave me a useful first view of the space: ICP, account selection, data enrichment, triggers, deliverability, copywriting, cadence, cold calling, LinkedIn, qualification, AI, and pipeline.
+## Approved Expert Map
 
-But after reading through it, I realised that these should not be treated as separate topics sitting next to each other.
+| Area | Expert | Focus |
+|---:|---|---|
+| 1 | Kyle Vamvouris | Commercial Fit, ICP, and Problem Context |
+| 2 | Adam Schoenfeld | Target Account Prioritisation and Account Research |
+| 3 | Nate Nasralla | Stakeholder Mapping and Buying-Committee Strategy |
+| 4 | Jesse Ouellette | Contact Data, Enrichment, and Verification |
+| 5 | Todd Busler | Timing and Trigger Signals |
+| 6 | Peter Goldstein | Deliverability and Sender Infrastructure |
+| 7 | Will Allred | Messaging and Conversation Entry |
+| 8 | Jason Bay | Cadence and Channel Orchestration |
+| 9 | Armand Farrokh | Live Conversation and Objection Handling |
+| 10 | Harris Kenny | Reply Handling, Qualification, and Handoff |
 
-They are parts of one process.
+Required caveats:
 
-A cold email is only the visible end of that process. Before it is sent, someone has already made decisions about who the company should sell to, which accounts are worth contacting, who inside those accounts matters, whether the contact data is reliable, and whether there is an actual reason to reach out now.
+- Jesse Ouellette is human-approved with a transparent evidence caveat: dated LeadMagic material is attributable to him and strongly fits Area 4, but direct operator-role proof was not captured in the research workspace.
+- Peter Goldstein covers technical sender-infrastructure foundations only, such as email authentication, DKIM, domains, and deliverability infrastructure. He should not be described as a cold-email ramping or mailbox-rotation expert.
+- Nate Nasralla covers Area 3 only. Area 10 is Harris Kenny.
+- Adam Schoenfeld is Area 2 primary. Area 5 is Todd Busler.
 
-If those earlier decisions are weak, better copy probably will not fix the result.
+## Repository Structure
 
-So instead of starting with a list of people who are generally known for “cold outreach,” I want to first break the work down into the steps that actually happen in an outbound motion.
+- `FINAL.md` — final playbook organized by Areas 1 through 10.
+- `research/sources.md` — source of truth for research areas, fixed expert selection, and collected-material inventory.
+- `research/linkedin-posts/` — public LinkedIn availability records and collected LinkedIn material if available.
+- `research/youtube-transcripts/` — Supadata transcript outputs. This run produced no transcript files because the script reported a missing API key.
+- `research/other/` — collected fallback and supporting materials.
+- `output-by-AI/collection/` — collection plan, transcript queue, status log, and audit.
+- `scripts/fetch_youtube_transcript.py` — approved Supadata transcript-fetching entry point.
+- `scripts/README.md` — transcript tooling notes.
 
-Then I can ask a more useful question:
+## Collection Status
 
-> Who has real experience in this specific part of the process?
+The collection run used the fixed expert list and gathered local fallback/source records for all 10 areas.
 
----
+Public LinkedIn posts were not collected because no accessible public post with usable date, text, and area relevance was retained. Each expert has an availability record under `research/linkedin-posts/`.
 
-## The current flow
+The transcript queue is in `output-by-AI/collection/transcript-queue.md`. The first live validation attempted Jason Bay's queued video with `scripts/fetch_youtube_transcript.py`, but the script stopped before a live Supadata request because `SUPADATA_API_KEY` was missing. No random replacement videos or alternate transcript providers were used.
 
-This is my current attempt to break cold outreach into smaller parts:
+## Safe Transcript Usage
 
-```text
-1. Understand the problem being sold and who it matters to
-2. Form an initial view of the companies that may be a fit
-3. Select specific target accounts
-4. Find the relevant people inside those accounts
-5. Collect and verify contact data
-6. Find a reason to reach out now
-7. Make sure the sending setup can actually reach the inbox
-8. Turn the research into a message and sequence
-9. Execute through email, calls, and/or LinkedIn
-10. Handle replies and move qualified conversations forward
-11. Learn from the results and revise the earlier assumptions
+Use Supadata only through:
+
+```bash
+python3 scripts/fetch_youtube_transcript.py --help
 ```
 
-This is not final, and the steps may later be combined, split, or reordered.
+Before fetching, add the exact approved YouTube source to `output-by-AI/collection/transcript-queue.md`. Do not fetch random videos. Do not print, edit, commit, or expose `.env` or API keys.
 
-The point is not to make outbound look more complicated than it is. The point is to avoid treating every problem as a copywriting problem.
+Generated transcripts should remain under `research/youtube-transcripts/[expert-slug]/`.
 
-For example:
+## Evidence Strength
 
-* If the wrong accounts are being targeted, personalization will not make the outreach relevant.
-* If the contact data is poor, the email may never reach the right person.
-* If the email lands in spam, message quality becomes almost irrelevant.
-* If replies are coming in but meetings are weak, the issue may be the offer or qualification rather than the sequence.
-* If meetings happen but nothing turns into pipeline, the problem may sit outside outbound itself.
+The strongest local evidence is in Areas 1, 2, 3, 5, 6, and 7.
 
-The flow should make it easier to see where a problem is actually coming from.
+Areas 8, 9, and 10 have usable fallback records but would benefit from transcript-level collection once Supadata configuration is available.
 
----
-
-## What this changes about expert selection
-
-The goal is not to find ten people who all talk about cold outreach.
-
-The goal is to build a set of practitioners who, together, can help explain the full process.
-
-Someone who has operated SDR teams may be useful for execution, qualification, and pipeline management. Someone who works deeply with Clay or enrichment may be more useful for account research, data, and triggers. Someone strong in cold calling may have little to add on deliverability. Someone who teaches email copy may be useful, but should not automatically be treated as an authority on the entire outbound system.
-
-So each step in the flow will need its own criteria.
-
-There will still be a few general requirements:
-
-* The person should have actually practised what they teach.
-* There should be evidence of real operating experience, not only content or training.
-* Their material should contain concrete workflows, examples, trade-offs, or failures.
-* There should be enough recent source material to research properly.
-* It should be possible to understand the context behind their advice: company type, buyer, market, sales motion, or stage.
-
-But beyond that, the main question is not:
-
-> Is this person a good cold outreach expert?
-
-It is:
-
-> Which part of the outbound process does this person genuinely understand through experience?
-
----
-
-## What happens next
-
-The next task is to refine this flow before selecting people.
-
-For each step, I want to identify:
-
-* what needs to be understood;
-* what kind of operating experience is relevant;
-* what would count as strong evidence that someone has actually done this work.
-
-Only after that should the candidate list be reviewed and narrowed down.
-
-This should make the final group of sources more balanced. It should also reduce the risk of selecting several people who all repeat similar advice about copy or LinkedIn, while leaving important parts of the system unexplored.
+Area 4 is usable with the explicit Jesse Ouellette evidence caveat.
