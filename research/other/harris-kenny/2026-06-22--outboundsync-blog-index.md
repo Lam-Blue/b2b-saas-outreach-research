@@ -1,15 +1,25 @@
-# OutboundSync Blog and Reply-Routing Context
+# Harris Kenny — OutboundSync Blog and CRM Operations Context
 
+- Candidate: Harris Kenny
 - Expert: Harris Kenny
-- Area: Area 10 — Reply Handling, Qualification, and Handoff
-- Source ID: harris-kenny-web-02
-- Source type: Company blog index and related first-party posts
-- URL: https://outboundsync.com/blog/
-- Published: Blog index observed with June 2026 posts
-- Collected: 2026-06-23
-- Local status: Collected as fallback for unavailable public LinkedIn post and unavailable transcript.
+- Source type: Company blog index
+- Source URL: https://outboundsync.com/blog/
+- Published: Unknown (blog index observed with June 2026 posts)
+- Accessed: 2026-06-23
+- Collection method: Direct HTTP fetch of public page
+- Research area: Area 10 — Reply Handling, Qualification, and Handoff
+- Source status: accessible
 
-## Relevance
+## Evidence
 
-Supports Area 10 through OutboundSync material on syncing campaign activity to HubSpot/Salesforce, CRM routing, and turning outbound engagement data into follow-up and handoff workflows.
+Bounded evidence summary: The page describes OutboundSync content as product updates, tutorials, research, and insights on outbound data integration, attribution, workflows, and CRM operations in HubSpot and Salesforce.
 
+Short excerpt: "workflows, and CRM operations"
+
+## Why this matters
+
+This supports Area 10 because reply handling and handoff require campaign activity, replies, and ownership changes to be represented cleanly in CRM workflows.
+
+## Limits or uncertainty
+
+This is a blog index, not a single dated article. Use Harris Kenny’s transcript for detailed claims and this page for company/source context.

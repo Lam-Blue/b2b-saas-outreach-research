@@ -1,15 +1,26 @@
-# The Perfect Cold Call Pitch Formula
+# Armand Farrokh — The Perfect Cold Call Pitch Formula
 
+- Candidate: Armand Farrokh
 - Expert: Armand Farrokh
-- Area: Area 9 — Live Conversation and Objection Handling
-- Source ID: armand-farrokh-web-02
-- Source type: Podcast/video episode page
-- URL: https://www.30mpc.com/episodes/the-perfect-cold-call-pitch-formula-book-1-in-4-connects
+- Source type: Webinar landing page
+- Source URL: https://www.30mpc.com/episodes/the-perfect-cold-call-pitch-formula-book-1-in-4-connects
 - Published: 2025-01-08
-- Collected: 2026-06-23
-- Local status: Fallback source because transcript collection was blocked by missing Supadata configuration.
+- Accessed: 2026-06-23
+- Collection method: Direct HTTP fetch of public page
+- Research area: Area 9 — Live Conversation and Objection Handling
+- Source status: accessible
 
-## Relevance
+## Evidence
 
-Supports Area 9 through cold-call pitch structure, live conversation handling, and objection-management framing.
+Bounded evidence summary: The page identifies Armand Farrokh as a 30MPC founder and frames the session around cold-call pitching, faster buyer pushback response, call control, pivots, and next-step closes.
+
+Short excerpt: "React faster when the buyer pushes back"
+
+## Why this matters
+
+This supports Area 9 as the source page for the retained Armand Farrokh transcript and confirms the live-conversation and objection-handling focus.
+
+## Limits or uncertainty
+
+The transcript is the stronger evidence source for detailed claims. Use this page mainly for metadata and source context.
 

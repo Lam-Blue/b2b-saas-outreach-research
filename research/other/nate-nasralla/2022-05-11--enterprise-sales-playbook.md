@@ -1,15 +1,26 @@
-# The Enterprise Sales Playbook
+# Nate Nasralla — The Enterprise Sales Playbook
 
+- Candidate: Nate Nasralla
 - Expert: Nate Nasralla
-- Area: Area 3 — Stakeholder Mapping and Buying-Committee Strategy
-- Source ID: nate-nasralla-web-03
-- Source type: First-party playbook
-- URL: https://www.fluint.io/resources/the-enterprise-sales-playbook
+- Source type: First-party playbook page
+- Source URL: https://www.fluint.io/resources/the-enterprise-sales-playbook
 - Published: 2022-05-11
-- Collected: 2026-06-23
-- Local status: Collected as fallback for unavailable public LinkedIn post.
+- Accessed: 2026-06-23
+- Collection method: Direct HTTP fetch of public page
+- Research area: Area 3 — Stakeholder Mapping and Buying-Committee Strategy
+- Source status: accessible
 
-## Relevance
+## Evidence
 
-Supports Area 3 because the playbook focuses on enterprise consensus, champion enablement, and buying-committee alignment. Do not use this as Area 10 reply-handling coverage.
+Bounded evidence summary: The page frames complex sales around buyer enablement, deal champions, committed champions, and building internal narratives for larger deals.
+
+Short excerpt: "Champions aren’t found. They’re created."
+
+## Why this matters
+
+This supports Area 3 because it is directly about identifying, developing, and enabling champions inside a buying committee.
+
+## Limits or uncertainty
+
+The page is a resource landing page rather than the full gated playbook. Do not use Nate Nasralla as Area 10 reply-handling evidence.
 
